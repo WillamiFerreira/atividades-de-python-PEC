@@ -1,12 +1,12 @@
 def consoante(n):
     if n in '0123456789':
-     return "True"
+     return True
     else:
-        return 'False'
+        return False
 
 
 def main():
-    letra = (input()).lower()
+    letra = (input('Digete um número e aparecerá True, ou qualquer outro caractere para aparecer false: ')).lower()
     x = print(consoante(letra))
 
 

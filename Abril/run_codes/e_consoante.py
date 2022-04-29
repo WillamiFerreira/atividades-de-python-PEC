@@ -6,7 +6,7 @@ def consoante(n):
 
 
 def main():
-    letra = (input()).lower()
+    letra = (input('Digite alguma coisa, se for consoante, o retorno será True, se não será False ')).lower()
     x = print(consoante(letra))
       
         

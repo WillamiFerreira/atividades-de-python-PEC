@@ -1,10 +1,13 @@
-def main():
-    caractere = input('').upper()
-    if caractere in 'ABCDEFGHIJKLMNOPQSRTUVWXYZ':
-        print('True')
+def letra(n):
+    if n in 'ABCDEFGHIJKLMNOPQSRTUVWXYZ':
+        return True
     else:
-        print('False')
+        return False
+def main():
+    caractere = input('Digite alguma coisa: ').upper()
+
+    print(letra(caractere))
+
         
-    
 if __name__=='__main__':
     main()

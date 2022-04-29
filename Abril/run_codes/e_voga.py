@@ -1,12 +1,12 @@
 def consoante(n):
     if n in 'aeiou':
-     return "True"
+     return True
     else:
-        return 'False'
+        return False
 
 
 def main():
-    letra = (input()).lower()
+    letra = str((input('Digite alguma coisa: '))).lower()
     x = print(consoante(letra))
 
 
