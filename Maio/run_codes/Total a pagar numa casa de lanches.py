@@ -1,7 +1,4 @@
 
-import re
-
-
 def conversor(code):
     if code == 'H':
         return 5.50
@@ -32,10 +29,10 @@ def main():
     X    PARA TOTAL DA CONTA
     ''')
     while code != 'X':
-        code = str(input('Digite o código das suas compras: ')).upper().strip() [0]
+        code = str(input()).upper().strip() [0]
         x = conversor(code)
         total += x
-    print('Total a pagar é {:.2f} reais'.format(total))
+    print('{:.2f}'.format(total))
 
 if __name__ == "__main__":
     main()
